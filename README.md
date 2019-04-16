@@ -5,14 +5,11 @@ Easebuzz payment api android kit
 
  1.Copy peb-lib.aar file into app/libs/ folder of your application.
 
-
- 2.Modify build.gradle(module) file in the below section.
-                - defaultConfig {  },
-                - repositories{ } , 
+ 2.Modify build.gradle(module) file in the below section.<br/>
+                - defaultConfig { },<br/>
+                - repositories{ } ,<br/>
                 - Add all required dependencies.<br/>
-                
-                
-                
+                                         
  3. Below are the dependancies required for smooth payment process.<br/>
                 - compile(name: 'peb-lib', ext: 'aar') <br/>
                 - compile 'com.android.support:cardview-v7:28.0.0'<br/>
