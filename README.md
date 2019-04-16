@@ -10,6 +10,17 @@ Easebuzz payment api android kit
                - defaultConfig {  },
                 - repositories{ } , 
                 - Add all required dependencies.
+   2.1. Below are the dependancies required for smooth payment process.
+                - compile(name: 'peb-lib', ext: 'aar')
+                - compile 'com.android.support:cardview-v7:28.0.0'
+                - compile 'com.android.support:recyclerview-v7:28.0.0'
+                - compile 'com.squareup.picasso:picasso:2.71828'
+                - compile 'com.squareup.okhttp:okhttp:2.4.0'
+                - compile 'com.android.support:multidex:1.0.1'
+                - compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+                - compile 'com.squareup.retrofit2:retrofit:2.3.0'
+                - compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+# Note : Please use Picasso library version : 2.71828, Old Picasso library version will not give you smooth payment process.
 
 
 3.Initiate payment request from your application.
