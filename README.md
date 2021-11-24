@@ -11,7 +11,7 @@ Easebuzz payment api android kit
                 - Add all required dependencies.<br/>
                                          
  3.Below are the dependancies required for smooth payment process.<br/>
-                - compile(name: 'peb-lib', ext: 'aar') <br/>
+                - compile(name: 'peb-lib-android-x', ext: 'aar') <br/>
                 - compile 'com.android.support:cardview-v7:28.0.0'<br/>
                 - compile 'com.android.support:recyclerview-v7:28.0.0'<br/>
                 - compile 'com.squareup.okhttp:okhttp:2.4.0'<br/>
